@@ -1,0 +1,370 @@
+@media (min-width: 360px) and (max-width: 860px) {
+  #Home {
+    max-width: 100vw;
+  }
+  body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 130px;
+    background-color: #212121;
+  }
+
+  .nav-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    max-width: 100%;
+  }
+  .nav-1 p {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* font-family: none; */
+  }
+
+  .nav-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    margin-top: 10px;
+  }
+
+  .nav-2 ul li a {
+    background-color: #212121;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 2px 7px;
+    list-style: none;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 20px;
+  }
+
+  .nav-2 ul li a:hover {
+    border-bottom: 2px solid violet;
+  }
+
+  section {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: none;
+  }
+
+  .sec-left {
+  }
+
+  .sec-left img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: wheat;
+    border-radius: 50%;
+  }
+
+  .sec-right {
+    margin: 20px 0px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .sec-right-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-right-info h5 {
+    color: wheat;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+  }
+  .whoami {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    color: white;
+    max-width: 90%;
+  }
+
+  .whoami p {
+    font-size: 1.5rem;
+  }
+
+  .animation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .animation h5 {
+    font-size: 2rem;
+    color: wheat;
+  }
+  #element {
+    font-size: 1.8rem;
+    letter-spacing: normal;
+  }
+
+  #Skills {
+    scroll-behavior: smooth;
+    height: auto;
+  }
+
+  .skills {
+  }
+
+  .skills h2 {
+    font-size: 2.5rem;
+    color: darkorange;
+    margin-top: 100px;
+    border-bottom: 5px solid wheat;
+  }
+
+  .skill-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .skill-grid {
+    border: 2px solid transparent;
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: 10px 0px;
+  }
+  .skill-grid:hover {
+    box-shadow: none;
+  }
+
+  .skill-grid img {
+    box-shadow: 0 0 5px rgb(173, 87, 56), 0 0 10px orangered,
+      0 0 20px rgb(153, 77, 49), 0 0 50px orangered;
+  }
+  .skill-grid p {
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.584);
+    font-weight: 900;
+  }
+  #Education {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .edu-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .edu-img img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    height: 100%;
+    width: 100vw;
+  }
+  .education h2 {
+    margin-top: 100px;
+    font-size: 2.5rem;
+    color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid wheat;
+    /* margin-left: 20px; */
+  }
+  .edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px;
+    max-width: 100%;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    flex-direction: column;
+    color: wheat;
+    margin: 10px 10px;
+    height: 100px;
+    max-width: 90vw;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+  }
+  .box:hover {
+    box-shadow: none;
+  }
+
+  .year {
+    font-size: 1rem;
+    color: rgb(136, 35, 35);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ed-info {
+    font-size: 1rem;
+    color: rgb(177, 115, 0);
+  }
+
+  .school {
+    font-size: 1.2rem;
+    color: orangered;
+    text-align: center;
+  }
+
+  #Experience {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .experience h2 {
+    margin-top: 100px;
+  }
+  .expe-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .expe-img img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    height: 100%;
+    width: 100vw;
+  }
+
+  .expe-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    flex-direction: column;
+    color: wheat;
+    margin: 10px 10px;
+    /* height: 100px; */
+    max-width: 90vw;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+  }
+
+  .in-info {
+    font-size: 1rem;
+    color: rgb(177, 115, 0);
+  }
+  .company {
+    font-size: 1.2rem;
+    color: orangered;
+    text-align: center;
+  }
+
+  footer {
+    background: url(image/contatc-formbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+  }
+  #Contact h2 {
+    font-size: 2.5rem;
+    margin-top: 100px;
+    color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid wheat;
+  }
+  form input {
+    font-size: 1.2rem;
+    color: black;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    height: 20px;
+    width: 300px;
+  }
+  form textarea {
+    font-size: 1.2rem;
+    max-width: 100%;
+    padding: 20px;
+    border: none;
+    color: black;
+    outline: none;
+    height: 100px;
+    width: 300px;
+  }
+  .social-sites p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    letter-spacing: 0.1cm;
+    text-align: center;
+  }
+}

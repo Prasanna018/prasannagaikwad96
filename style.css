@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+#Home {
+  background-color: #fceed1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #212121;
+  border-bottom: 2px solid white;
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  height: 60px;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Chela One", cursive;
+  letter-spacing: 0.05cm;
+  max-width: 50%;
+  text-align: center;
+}
+.nav-1 p {
+  font-size: 2rem;
+
+  color: orange;
+  font-weight: bolder;
+}
+
+.nav-1 span {
+  font-size: 1rem;
+  color: white;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-2 ul li a {
+  text-decoration: none;
+  margin: 15px 20px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 2px solid transparent;
+}
+
+.nav-2 ul li a:hover {
+  background-color: black;
+  border-radius: 20px;
+}
+
+section {
+  /* height: 100vh; */
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.sec-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-left img {
+  display: flex;
+  background-color: wheat;
+  border-radius: 50%;
+}
+
+.sec-right {
+  margin: 50px 0px;
+  font-family: "Abril Fatface", cursive;
+
+  color: white;
+}
+
+.sec-right-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.sec-right-info h5 {
+  font-size: 3rem;
+  color: black;
+}
+
+.whoami {
+  font-weight: bold;
+  letter-spacing: 0.1cm;
+  text-align: center;
+
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 60%;
+  margin: auto;
+}
+
+.whoami p {
+  font-size: 3rem;
+}
+
+.animation {
+  margin-top: 80px;
+}
+.animation h5 {
+  text-align: center;
+}
+
+#element {
+  font-size: 3rem;
+  margin-top: 20px;
+  letter-spacing: 0.1cm;
+  color: blueviolet;
+  font-weight: bolder;
+  height: 50px;
+}
+
+#Skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212121;
+  height: 100vh;
+}
+
+.skills {
+}
+.skills h2 {
+  font-size: 3rem;
+  color: darkorange;
+  margin-top: 40px;
+  border-bottom: 5px solid wheat;
+}
+
+.skill-name {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 20px;
+}
+.skill-grid {
+  border: 2px solid transparent;
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-right: 15px;
+}
+.skill-grid:hover {
+  box-shadow: inset 0 0 5px orange, 0 0 10px orange, 0 0 50px orange,
+    0 0 100px orange;
+}
+
+.skill-grid img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-grid p {
+  margin: 10px 0px;
+  font-size: 1.5rem;
+  color: rgba(189, 66, 0, 0.584);
+  font-weight: 900;
+}
+#Education {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.education {
+  margin-top: 20px;
+}
+
+.education h2 {
+  font-size: 3rem;
+  color: darkorange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid wheat;
+  margin-left: 20px;
+}
+
+.edu-img {
+  margin: 40px 0px;
+}
+
+.edu-img img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.edu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 500px;
+  border: 2px solid white;
+  flex-direction: column;
+  color: wheat;
+  margin: 20px 0px;
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.box:hover {
+  box-shadow: 0 0 5px orchid, 0 0 10px orchid, 0 0 20px orchid, 0 0 50px orchid;
+}
+
+.year {
+  font-size: 1rem;
+  color: rgb(162, 128, 64);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ed-info {
+  font-size: 2rem;
+  color: orange;
+}
+
+.school {
+  font-size: 1.5rem;
+  color: rgb(150, 102, 12);
+}
+#Experience {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.experience {
+}
+.experience h2 {
+  font-size: 3rem;
+  color: darkorange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid wheat;
+  margin-left: 20px;
+}
+
+.expe-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expe-img img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 40px 0px;
+}
+
+.expe {
+  margin-top: 50px;
+}
+
+.expe-box {
+  height: 200px;
+  width: 500px;
+  border: 2px solid wheat;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px 0px;
+  padding: 10px 20px;
+}
+
+.expe-box:hover {
+  border: none;
+  box-shadow: inset 0 0 10px orange, 0 0 20px orange, 0 0 50px orange,
+    0 0 100px orange;
+  outline: none;
+}
+
+.in-info {
+  font-size: 2rem;
+  color: orange;
+  text-align: center;
+}
+
+.company {
+  font-size: 1.5rem;
+  color: orangered;
+}
+
+footer {
+  background-image: url(image/contatc-formbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-color: wheat; */
+}
+
+#Contact h2 {
+  font-size: 3rem;
+  color: darkorange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid wheat;
+  margin-top: 20px;
+}
+.form {
+  border: 2px solid transparent;
+  background-color: #fceed1;
+  padding: 10px;
+  border-radius: 20px;
+  background: transparent;
+}
+
+.form h3 {
+  font-size: 1.8rem;
+  color: rgb(174, 23, 142);
+}
+
+form {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+  padding: 20px 30px;
+}
+
+form input {
+  font-size: 1.2rem;
+  color: black;
+  margin: 10px 0px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 500px;
+}
+
+form textarea {
+  font-size: 1.2rem;
+  max-width: 100%;
+  padding: 20px;
+  border: none;
+  color: black;
+  outline: none;
+  height: 50px;
+  width: 500px;
+}
+
+form button {
+  font-size: 1rem;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: wheat;
+  margin-top: 20px;
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social-sites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+
+  flex-direction: column;
+}
+
+.social-sites ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-sites ul li {
+  list-style: none;
+}
+.social-sites ul li a {
+  text-decoration: none;
+}
+
+.social-sites p {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  letter-spacing: 0.1cm;
+  font-family: "Lobster", cursive;
+}
+
+.social-sites img {
+  height: 25px;
+  width: 25px;
+  border: 2px solid black;
+
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+}
+.social-sites img:hover {
+  background-color: white;
+}
